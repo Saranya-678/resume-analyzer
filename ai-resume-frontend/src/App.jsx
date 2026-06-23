@@ -5,6 +5,8 @@ import Dashboard from "./pages/Dashboard";
 import ResumeUpload from "./pages/ResumeUpload";
 import ProtectedRoute from "./components/ProtectedRoute";
 
+export const API = "https://ai-resume-analyzer-production-6db5.up.railway.app";
+
 function App() {
   return (
     <BrowserRouter>
